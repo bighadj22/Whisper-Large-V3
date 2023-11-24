@@ -15,18 +15,17 @@ Clone this repository.
 
 Install required packages:
 
-bash
-Copy code
 pip install replicate python-dotenv
 Create a .env file in the project root and add your Replicate API token:
 
-env
-Copy code
+
 REPLICATE_API_TOKEN=your_api_token_here
+
 Usage
 Run the script using Python:
 
-bash
-Copy code
 python transcribe_audio.py
+
 The script will process each audio file in the specified directory and output the transcription.
+
+Read The Full guide : https://gptpluginz.com/whisper-v3-openai/
